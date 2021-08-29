@@ -1,0 +1,28 @@
+#input_button{
+    margin-top:200px;
+}
+
+h1{
+    color:rgb(255, 74, 134);;
+}
+ h2{
+    margin:40px;
+    color:rgb(196, 125, 253);
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+#get_name{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.527);    
+    border-style:solid;
+    border-color: rgba(73, 172, 230, 0.795);
+    color:thistle
+}
+
+body{
+    background-image :url("magica_forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
