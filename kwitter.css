@@ -3,13 +3,14 @@
 }
 
 h1{
-    color:rgb(255, 74, 134);;
+    color:rgb(240, 148, 86);
+    background-color: rgba(0, 0, 0, 0.747);
 }
  h2{
     margin:40px;
     color:rgb(196, 125, 253);
     font-family:'Courier New', Courier, monospace;
-    
+    background-color: rgba(0, 0, 0, 0.801);
 }
 
 #get_name{
@@ -21,8 +22,8 @@ h1{
 }
 
 body{
-    background-image :url("magica_forest.jpg");
+    background-image :url("aesthetic_front_page.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 
 }

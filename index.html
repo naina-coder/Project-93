@@ -5,25 +5,26 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="kwitter.css">
-<script src="kwitter.js"></script>
+
 </head>
 
 <body>
-    
-
+    <button id="logout_btn"  class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">logout</button>
 <center>
     <h1>꧁•⊹٭𝚂𝚝. 𝙵𝚊𝚒𝚛𝚢 𝚂𝚌𝚑𝚘𝚘𝚕٭⊹•꧂</h1>
 <h2>
     Login With Your UserName!
 </h2>
     <div id="input_button" class="form-group">
-    <input  class="form-control" id="get_name" type="text" placeholder="Type your Username here"  >
+        
+        <input  class="form-control" id="get_name" type="text" placeholder="Type your Username here"  >
 
    
 </div>
 <br>
-<button id="addUser" class="btn btn-light" onclick="savename()">Log In</button>
+<button id="addUser" class="btn btn-danger" onclick="savename()">Log In</button>
     </center>
+    <script src="kwitter.js"></script>
 </body>
 
 </html>
